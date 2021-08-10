@@ -3,7 +3,29 @@ body {
     background: #383E56;
 }
 
+header {
+    background: #353535;
+}
+
 .navbar {
     font-weight: bold;
     padding: 15px;
+    display: flex;
+}
+
+.navbar-brand, .navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-text {
+    color: #fff;
+    padding: 5px 0;
+}
+
+.nav-text:hover {
+    color: #EEBB4D;
+}
+
+.active {
+    color: #EEBB4D;
 }
