@@ -7,3 +7,15 @@ body {
     font-weight: bold;
     padding: 15px;
 }
+
+.navbar-brand, .navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.active, .nav-link:hover {
+    color: #EEBB4D;
+}
