@@ -1,0 +1,9 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #383E56;
+}
+
+.navbar {
+    font-weight: bold;
+    padding: 15px;
+}
