@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: #383E56;
 }
 
 header {
@@ -19,13 +18,14 @@ header {
     color: #fff;
 }
 
-.home-text {
-    margin: auto;
-}
-
-.home-text h1 {
+.presentation h1 {
     font-size: 45px;
     margin-bottom: 25px;
+    text-shadow: 2px 1px 4px #000;
+}
+
+.home-text {
+    margin: auto;
 }
 
 .home-text p {
@@ -48,4 +48,32 @@ header {
 
 .active {
     color: #EEBB4D;
+}
+
+.features {
+    text-align: center;
+    padding-top: 40px;
+    color: #000;
+    background: #F1F6F9;
+}
+
+.features i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.features h1 {
+    font-size: 28px;
+}
+
+.features p {
+    font-size: 16px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+    .presentation {
+        padding-top: 50px;
+    }
 }
