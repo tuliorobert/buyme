@@ -1,30 +1,79 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: #383E56;
+}
+
+header {
+    background: url(https://www.desktopbackground.org/download/1920x1080/2012/10/09/465206_dark-purple-backgrounds-wallpapers-cave_3600x2400_h.jpg);
 }
 
 .navbar {
     font-weight: bold;
     padding: 15px;
-    background: #353535;
+    display: flex;
 }
 
-.navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.5);
+.presentation {
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
 }
 
-.navbar-toggler-icon {
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+.presentation h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    text-shadow: 2px 1px 4px #000;
+}
+
+.home-text {
+    margin: auto;
+}
+
+.home-text p {
+    font-size: 23px;
+    margin-bottom: 110px;
 }
 
 .navbar-brand, .navbar-brand:hover {
     color: #fff;
 }
 
-.nav-link {
+.nav-text {
     color: #fff;
+    padding: 5px 0;
 }
 
-.active, .nav-link:hover {
+.nav-text:hover {
     color: #EEBB4D;
+}
+
+.active {
+    color: #EEBB4D;
+}
+
+.features {
+    text-align: center;
+    padding-top: 40px;
+    color: #000;
+    background: #F1F6F9;
+}
+
+.features i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.features h1 {
+    font-size: 28px;
+}
+
+.features p {
+    font-size: 16px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+    .presentation {
+        padding-top: 50px;
+    }
 }
