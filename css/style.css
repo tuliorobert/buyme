@@ -4,13 +4,33 @@ body {
 }
 
 header {
-    background: #353535;
+    background: url(https://www.desktopbackground.org/download/1920x1080/2012/10/09/465206_dark-purple-backgrounds-wallpapers-cave_3600x2400_h.jpg);
 }
 
 .navbar {
     font-weight: bold;
     padding: 15px;
     display: flex;
+}
+
+.presentation {
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.home-text {
+    margin: auto;
+}
+
+.home-text h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.home-text p {
+    font-size: 23px;
+    margin-bottom: 110px;
 }
 
 .navbar-brand, .navbar-brand:hover {
