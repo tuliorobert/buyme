@@ -14,8 +14,17 @@ header {
 
 .presentation {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 120px;
+    padding-bottom: 50px;
     color: #fff;
+}
+
+.row {
+    margin: 0;
+}
+
+.presentation .home-text {
+    margin: auto;
 }
 
 .presentation h1 {
@@ -24,13 +33,26 @@ header {
     text-shadow: 2px 1px 4px #000;
 }
 
-.home-text {
-    margin: auto;
+.presentation .home-text p {
+    font-size: 23px;
 }
 
-.home-text p {
-    font-size: 23px;
-    margin-bottom: 110px;
+.presentation button {
+    padding: 15px 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 2px;
+    background: #7952B3;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+    transition-duration: 1s;
+}
+
+.presentation button:hover {
+    background: #FAF3F3;
+    color: #7952B3;
+    transition-duration: 1s;
 }
 
 .navbar-brand, .navbar-brand:hover {
